@@ -33,6 +33,11 @@ public class MainActivity extends AppCompatActivity implements EvtObserver {
         });
     }
 
+    /**
+     * 事件响应，解析事件
+     * @param evtCode 事件code
+     * @param data    事件携带的数据
+     */
     @Override
     public void notifyEvt(int evtCode, Bundle data) {
         // 其他页面触发事件后该方法就被调用
